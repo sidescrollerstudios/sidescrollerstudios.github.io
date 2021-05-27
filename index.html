@@ -1,9 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Side Scroller Studios</title>
-</head>
-<body>
-		Side Scroller Studios
-</body>
+  <head>
+    <title>Side Scroller Studios</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="spinner-wrapper">
+        <div class="dot dot-one"></div>
+        <div class="dot dot-two"></div>
+        <div class="dot dot-three"></div>
+      </div>
+    </div>
+    <div class="logo">
+      <div class="wrapper-logo">
+        <img src="./LogowithText.png" alt="" />
+        Coming Soon
+      </div>
+    </div>
+    <script>
+      anime
+        .timeline({
+          targets: ".dot-one",
+          loop: true,
+        })
+        .add({
+          translateY: "-60px",
+          translateX: "60px",
+        })
+        .add({
+          translateY: "0px",
+          translateX: "120px",
+        });
+
+      anime
+        .timeline({
+          targets: ".dot-three",
+          loop: true,
+        })
+        .add({
+          translateY: "60px",
+          translateX: "-60px",
+        })
+        .add({
+          translateY: "0px",
+          translateX: "-120px",
+        });
+    </script>
+  </body>
 </html>

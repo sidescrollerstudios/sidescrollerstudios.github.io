@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  background-image: -webkit-gradient(linear, left top, right top, from(#667db6), color-stop(#0082c8), color-stop(#0082c8), to(#667db6));
+  background-image: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  color: white;
+  font-weight: 1rem;
+  font-size: 62.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.logo {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo .wrapper-logo {
+  color: #1b1b1b;
+  padding: 20px 40px;
+  border-radius: 20px;
+  background: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.logo .wrapper-logo img {
+  width: 200px;
+  margin-right: 100px;
+}
+
+.wrapper {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .spinner-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .spinner-wrapper .dot {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  background: #fff;
+  margin: 5px;
+}
+/*# sourceMappingURL=style.css.map */
